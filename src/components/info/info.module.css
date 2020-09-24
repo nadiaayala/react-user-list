@@ -1,0 +1,11 @@
+.container{
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end; */
+}
+
+.star{
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,49 @@
+.usersDiv{
+    width: 1000px;
+    height: auto;
+}
+
+.usersList{
+    padding-inline-start: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 50%;
+    height: 150px;
+    padding-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail{
+  max-width: 80px;;
+    border-radius: 50px;
+    border: solid 1px rgba(0,0,0,0.2);
+}
+
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+
+  .thumbnail:hover{
+    width: 120px;
+  }
